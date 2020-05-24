@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFriendActivity"
+    android:background="#000"
+    android:layoutDirection="ltr"
+    >
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gps"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/friendID"
+        android:hint="Enter your friend's ID"
+        android:textColorHint="#127BE4"
+        android:textColor="@color/Primary"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:backgroundTint="@color/Primary"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        />
+    <Button
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+       android:layout_below="@id/friendID"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#127BE4"
+        android:background="@drawable/search"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/searchAboutFriend"
+        />
+
+    <TextView
+        android:id="@+id/friendAddedName"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@+id/searchAboutFriend"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:text="kerols atef"
+        android:paddingLeft="@dimen/_20sdp"
+        android:textColor="@color/Primary"
+        android:textSize="@dimen/_25sdp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@id/searchAboutFriend"
+        android:layout_marginLeft="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/addfriend"
+        android:id="@+id/addFriendButton"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

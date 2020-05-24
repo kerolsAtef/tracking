@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "74684440236",
+    "firebase_url": "https://tracking-7793e.firebaseio.com",
+    "project_id": "tracking-7793e",
+    "storage_bucket": "tracking-7793e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74684440236:android:d219107cba34026a86c909",
+        "android_client_info": {
+          "package_name": "com.kerols2020.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74684440236-s8iehfc5ptgehiejr64p51qm8fd10r80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCsjCUoDE1jy5oBcaI1TPIBc4DFHQJ4aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74684440236-s8iehfc5ptgehiejr64p51qm8fd10r80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

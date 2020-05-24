@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">tracking</string>
+    <string name="map_key">AIzaSyAqMAfWQwE40KyP8oeLruIVWcYaixbDLjM</string>
+    <string name="title_activity_friend_location">Map</string>
+</resources>
